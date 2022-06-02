@@ -7,25 +7,25 @@ const inputList = [
     id: 1,
     title: 'education',
     type: 'text',
-    placeholder: 'Input your education',
+    placeholder: 'Input education',
   },
   {
     id: 2,
     title: 'job experience',
     type: 'text',
-    placeholder: 'Input your job experience',
+    placeholder: 'Input job experience',
   },
   {
     id: 3,
     title: 'skills (stacks)',
     type: 'text',
-    placeholder: 'Input your skills',
+    placeholder: 'Input skills',
   },
   {
     id: 4,
     title: 'english level',
     type: 'text',
-    placeholder: 'Input your english level',
+    placeholder: 'Input english level',
   },
 ];
 
