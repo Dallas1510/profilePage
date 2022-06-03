@@ -1,3 +1,42 @@
 .profile {
-	margin-top: 51px;
+  margin-top: 51px;
+}
+.personInfo {
+  display: flex;
+  margin-top: 44px;
+}
+.tabPanel {
+  width: 1010px;
+}
+.reactTabs {
+  width: 1218px;
+}
+.tabList {
+  display: flex;
+  font-weight: 600;
+  font-size: 1.6em;
+  text-align: center;
+  line-height: 59px;
+  margin: 0;
+  padding: 0 35px;
+  border-bottom: 1px solid #e3e1e7;
+}
+.tab {
+  display: block;
+  position: relative;
+  margin-right: 40px;
+  padding: 0 15px;
+  color: #252525;
+  text-decoration: none;
+  outline: none;
+  cursor: pointer;
+}
+.active::after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: -10%;
+  width: 120%;
+  height: 2px;
+  background-color: #2b79ee;
 }

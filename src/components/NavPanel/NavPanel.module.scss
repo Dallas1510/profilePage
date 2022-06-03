@@ -6,19 +6,23 @@
 	line-height: 59px;
 	margin: 0;
 	padding: 0 35px;
+	border-bottom: 1px solid #E3E1E7;
 }
 
 .link{
 	display: block;
+	position: relative;
 	margin-right: 40px;
+	padding: 0 15px;
 	color: #252525;
 	text-decoration: none;
 }
-
 .active::after{
 	content: '';
 	display: block;
-	width: 100%;
-	height: 1px;
+	position: absolute;
+	left: -10%;
+	width: 120%;
+	height: 2px;
 	background-color: #2B79EE;
 }
