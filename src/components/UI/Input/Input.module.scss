@@ -1,5 +1,5 @@
 .wrapp {
-	margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 .label {
   display: block;
@@ -11,20 +11,35 @@
   color: #4f5053;
 }
 
-.input {
-	width: 490px;
-	height: 52px;
+.input,
+.textarea {
+  width: 490px;
   padding: 15px 20px;
   border: 1px solid #e3e1e7;
   border-radius: 25px 10px;
   color: #252525;
   font-weight: 500;
   font-size: 1.2em;
-	&::placeholder{
-		color: #767676;
-	}
+  &::placeholder {
+    color: #767676;
+  }
   &:focus,
   &:active {
     outline: none;
+  }
+}
+
+.input {
+  height: 52px;
+}
+
+.textarea {
+  &.small {
+    height: 96px;
+    resize: none;
+  }
+  &.big {
+    height: 152px;
+    resize: none;
   }
 }
